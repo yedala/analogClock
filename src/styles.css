@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.clock {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.hand {
+  position: absolute;
+  bottom: 50%;
+  transform-origin: bottom;
+  z-index: 10;
+}
+.hours {
+  width: 4px;
+  height: 50px;
+  background-color: rgb(83, 83, 218);
+}
+.mins {
+  width: 3px;
+  height: 70px;
+  background-color: brown;
+}
+.secs {
+  width: 2px;
+  height: 82px;
+  background-color: rgb(233, 94, 94);
+}
